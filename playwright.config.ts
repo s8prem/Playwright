@@ -11,7 +11,9 @@ const config: PlaywrightTestConfig = {
     timeout: 180000,
     retries: 0,
     testMatch: ["1Navigation.test.ts"],
-    reporter: [["dot"],["allure-playwright"]]
+    reporter: [["dot"],["allure-playwright"]],
+
+    //************************************* git changes *****************************
 
 }
 export default config;
